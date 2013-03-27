@@ -2,47 +2,32 @@
 $(document).ready (function(){
 
 $('#roster').click(function(){
-//$('#roster').attr("href", "http://flyers.nhl.com/club/roster.htm");
-document.addEventListener("#roster", roster, true);
-alert("Roster Working!");
+window.open("http://flyers.nhl.com/club/roster.htm");
 	});
 
 $('#schedule').click(function(){
-//$('#schedule').attr("href", "http://flyers.nhl.com/club/schedule.htm");
-document.addEventListener("#schedule", schedule, true);
-alert("Schedule Working!");
+window.open("http://flyers.nhl.com/club/schedule.htm");
 	});
 
 $('#record').click(function(){
-//$('#record').attr("href", "http://flyers.nhl.com/club/gamelog.htm");
-
-alert("Record Working!");
+window.open("http://flyers.nhl.com/club/gamelog.htm");
 	});
 
 $('#scratches').click(function(){
-//$('#scratches').attr("href", "http://flyers.nhl.com/club/page.htm?id=36232");
-document.addEventListener("#scratches", scratches, true);
-alert("Scratches Working!");
+window.open("http://flyers.nhl.com/club/page.htm?id=36232");
 	});
 
 $('#updates').click(function(){
-//$('#updates').attr("href", "http://flyers.nhl.com/club/page.htm?id=64095");
-document.addEventListener("#updates", updates, true);
-alert("Updates Working!");
+window.open("http://flyers.nhl.com/club/page.htm?id=64095");
 	});
 
 $('#botsocfb').click(function(){
-//$('#botsocfb').attr("href", "http://www.facebook.com/philadelphiaflyers?fref=ts");
-document.addEventListener("#botsocfb", botsocfb, true);
-alert("Facebook Working!");
+window.open("http://www.facebook.com/philadelphiaflyers?fref=ts");
 	});
 
 $('#botsoctw').click(function(){
-//$('#botsoctw').attr("href", "http://twitter.com/NHLFlyers");
-document.addEventListener("#botsoctw", botsoctw, true);
-alert("Twitter Working!");
+window.open("http://twitter.com/NHLFlyers");
 	});
-
 });
 
 
