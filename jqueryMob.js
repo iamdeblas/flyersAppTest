@@ -15,7 +15,7 @@ alert("Schedule Working!");
 
 $('#record').click(function(){
 //$('#record').attr("href", "http://flyers.nhl.com/club/gamelog.htm");
-document.addEventListener("#record", record, true);
+
 alert("Record Working!");
 	});
 
